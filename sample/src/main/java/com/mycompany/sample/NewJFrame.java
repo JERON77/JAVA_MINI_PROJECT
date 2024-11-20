@@ -138,7 +138,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        String uri = "mongodb+srv://231501068:S3ktsBBgcS25cHBH@cluster0.lxlc3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+        String uri = "connection string for mongodb";
 
         // Create a new MongoClient using the connection string
         try (MongoClient mongoClient = MongoClients.create(uri)) {
