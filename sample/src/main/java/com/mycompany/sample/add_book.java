@@ -117,7 +117,7 @@ public class add_book extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        String uri = "mongodb+srv://231501068:S3ktsBBgcS25cHBH@cluster0.lxlc3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";  // Replace with your actual MongoDB URI
+        String uri = "connection string for mongodb";  // Replace with your actual MongoDB URI
 
         // MongoDB connection and operation
         try (MongoClient mongoClient = MongoClients.create(uri)) {
