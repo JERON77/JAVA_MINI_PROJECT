@@ -122,7 +122,7 @@ public class delete extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        String URI = "mongodb+srv://231501068:S3ktsBBgcS25cHBH@cluster0.lxlc3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";;
+        String URI = "connection string for mongodb";;
         String bookName = jTextField1.getText().trim();
 
 if (bookName.isEmpty()) {
